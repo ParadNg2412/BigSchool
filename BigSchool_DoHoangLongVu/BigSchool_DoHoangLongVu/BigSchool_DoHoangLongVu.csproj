@@ -201,16 +201,16 @@
     <Compile Include="Migrations\202206061455595_AddNameColumnToApplicationUser.Designer.cs">
       <DependentUpon>202206061455595_AddNameColumnToApplicationUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202206130607481_AddAttendence.cs" />
-    <Compile Include="Migrations\202206130607481_AddAttendence.Designer.cs">
-      <DependentUpon>202206130607481_AddAttendence.cs</DependentUpon>
+    <Compile Include="Migrations\202206130814516_AddAttendence.cs" />
+    <Compile Include="Migrations\202206130814516_AddAttendence.Designer.cs">
+      <DependentUpon>202206130814516_AddAttendence.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Attendence.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Course.cs" />
-    <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\Application DbContext.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -305,8 +305,8 @@
     <EmbeddedResource Include="Migrations\202206061455595_AddNameColumnToApplicationUser.resx">
       <DependentUpon>202206061455595_AddNameColumnToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202206130607481_AddAttendence.resx">
-      <DependentUpon>202206130607481_AddAttendence.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202206130814516_AddAttendence.resx">
+      <DependentUpon>202206130814516_AddAttendence.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

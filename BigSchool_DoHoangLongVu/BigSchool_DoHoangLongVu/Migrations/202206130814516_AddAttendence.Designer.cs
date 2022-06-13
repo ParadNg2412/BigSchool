@@ -13,7 +13,7 @@ namespace BigSchool_DoHoangLongVu.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202206130607481_AddAttendence"; }
+            get { return "202206130814516_AddAttendence"; }
         }
         
         string IMigrationMetadata.Source
