@@ -223,3 +223,10 @@ E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\obj\Debug\BigSch
 E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\obj\Debug\BigSchool_DoHoangLongVu.dll
 E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\obj\Debug\BigSchool_DoHoangLongVu.pdb
 E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\obj\Debug\BigSchool_DoHoangLongVu.Migrations.AddNameColumnToApplicationUser.resources
+E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\obj\Debug\BigSchool_DoHoangLongVu.Migrations.AddAttendence.resources
+E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\bin\System.Net.Http.Formatting.dll
+E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\bin\System.Web.Http.dll
+E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\bin\System.Web.Http.WebHost.dll
+E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\bin\System.Net.Http.Formatting.xml
+E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\bin\System.Web.Http.xml
+E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\bin\System.Web.Http.WebHost.xml
