@@ -1,4 +1,6 @@
-﻿using BigSchool_DoHoangLongVu.Models;
+﻿
+using BigSchool_DoHoangLongVu.DTOs;
+using BigSchool_DoHoangLongVu.Models;
 using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
@@ -9,6 +11,7 @@ using System.Web.Http;
 
 namespace BigSchool_DoHoangLongVu.Controllers
 {
+    [Authorize]
     public class AttendencesController : ApiController
     {
         private ApplicationDbContext _dbContext;
@@ -18,14 +21,20 @@ namespace BigSchool_DoHoangLongVu.Controllers
         }
 
         [HttpPost]
-        public IHttpActionResult Attend([FromBody] int courseId)
+        public IHttpActionResult Attend(AttendanceDto attendanceDto)
         {
-            var attendence = new Attendence
+            var userId = User.Identity.GetUserId();
+            if (_dbContext.Attendances.Any(a => a.AttendeeId == userId && a.CourseId == attendanceDto.CourseId))
             {
-                CourseId = courseId,
-                AttendeeId = User.Identity.GetUserId()
+                return BadRequest("The Attendance already exists!");
+            }
+
+            var attendance = new Attendence
+            {
+                CourseId = attendanceDto.CourseId,
+                AttendeeId = userId
             };
-            _dbContext.Attendences.Add(attendence);
+            _dbContext.Attendances.Add(attendance);
             _dbContext.SaveChanges();
             return Ok();
         }

@@ -230,3 +230,4 @@ E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\bin\System.Net.H
 E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\bin\System.Web.Http.xml
 E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\bin\System.Web.Http.WebHost.xml
 E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\obj\Debug\BigSchool_DoHoangLongVu.Migrations.AddAttendence.resources
+E:\Tuan 3 4 5 6\BigSchool_DoHoangLongVu\BigSchool_DoHoangLongVu\obj\Debug\BigSchool_DoHoangLongVu.Migrations.AddFollowingTable.resources
